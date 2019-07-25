@@ -13,6 +13,7 @@
     height: 750px;
     width: 650px;
     border-radius: 15px;
+    border: 1px solid black;
 }
 
 .calculatrice_result
