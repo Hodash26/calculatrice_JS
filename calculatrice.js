@@ -1,11 +1,5 @@
-let action = document.getElementsByClassName("action");
-console.log(action);
-
-action.addEventListener("click", console.log(action));
-
-
-
-
+let firstbtn = document.getElementById("zero");
+console.log(firstbtn);
 
 
 
