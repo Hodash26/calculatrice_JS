@@ -3,10 +3,13 @@ function affichenombre (){
 }
 
 function afficheresultat () {
-    document.getElementById("result").innerHTML += (eval("action"));
+    document.getElementById("result").innerHTML = (eval(result.textContent));
 }
 
-let action = document.getElementsByClassName("action"); document.getElementsByClassName("egale");
+document.getElementsByClassName("reset");
+reset.addEventListener("click", "");
+
+let action = document.getElementsByClassName("action");
 for (let i=0; i < action.length; i++)
 {
     action[i].addEventListener("click", affichenombre);
@@ -25,5 +28,5 @@ for (let i=0; i < egale.length; i++)
 }
 
 
-
+//add event listener
 // faire en sorte que quand tu cliques sur un bouton il l'affiche dans console log
