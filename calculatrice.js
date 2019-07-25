@@ -3,7 +3,7 @@ function affichenombre (){
 }
 
 function afficheresultat () {
-    document.getElementById("result").innerHTML += (eval('2 + 2'));
+    document.getElementById("result").innerHTML += (eval("action"));
 }
 
 let action = document.getElementsByClassName("action"); document.getElementsByClassName("egale");
@@ -21,7 +21,7 @@ for (let i=0; i < op.length; i++)
 let egale = document.getElementsByClassName("egale")
 for (let i=0; i < egale.length; i++)
 {
-    egale[i].addEventListener("click", affichenombre);
+    egale[i].addEventListener("click", afficheresultat);
 }
 
 
