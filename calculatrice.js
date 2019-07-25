@@ -6,8 +6,13 @@ function afficheresultat () {
     document.getElementById("result").innerHTML = (eval(result.textContent));
 }
 
-document.getElementsByClassName("reset");
-reset.addEventListener("click", "");
+let reset = document.getElementById("reset");
+
+function plusrien ()
+{
+    result.innerHTML ="";
+}
+reset.addEventListener("click", plusrien);
 
 let action = document.getElementsByClassName("action");
 for (let i=0; i < action.length; i++)
